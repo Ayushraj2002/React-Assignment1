@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('image3.png');
+    background-size: cover;
+    
+}
+
+form{
+    margin-top: 80px;
+    background-color: rgba(0, 229, 255, 0.596);
+    text-align: center;
+    box-shadow: 0px 4px 8px 10px rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input{
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(253, 165, 0);
+    background: transparent;
+    
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgba(255, 166, 0, 0.623);
+    border: none;
+    color: black;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+form h1{
+    margin-bottom: 30px;
+}
+
+::placeholder{
+    opacity: .4;
+    color: black;
+}
